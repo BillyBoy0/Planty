@@ -16,19 +16,22 @@ Template: astra
 
 /*HEADER*/
 
+@media screen and (min-width: 921px) {
+
+
 .ast-primary-header-bar .ast-builder-menu-1 .main-navigation .menu-item .menu-link {
     padding-left: 60px;
     padding-right: 60px; 
 }
 
 
-.main-navigation ul .menu-item-41 {
+.main-navigation .main-header-menu .menu-item-41 {
     background-color: #DC9F96!important;
     order: 3;
 
 }
 
-.main-navigation ul .menu-item-41 a {
+.main-navigation .main-header-menu .menu-item-41 a {
     color: white!important;
 
 }
@@ -37,9 +40,22 @@ Template: astra
     padding-right: 60px;
 }
 
-.bouton-admin:hover {
-    color: blueviolet!important;
 }
+
+@media screen and (max-width: 921px) {
+
+    .main-header-menu a {
+        color: #000000!important;
+    }
+
+    .bouton-admin {
+        padding-left: 20px;
+    }
+
+}
+
+
+
 
 
 .site-header-focus-item .ast-container { 
